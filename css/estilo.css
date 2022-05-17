@@ -59,7 +59,7 @@ main {
     height: 1500px;
     text-decoration: none;
     background-image: radial-gradient(#F5B041, #FAD7A0);
-    height: 500px;
+    height: 700px;
     color: black;
     grid-area: main;
 }
@@ -115,7 +115,7 @@ main {
 section {
     grid-area: section;
     background-image: radial-gradient(#F5B041, #FAD7A0);
-    height: 1500px;
+    height: 1700px;
     }
   
    
@@ -141,25 +141,25 @@ section {
     gap: 20px;
 }
 .img1{
-    margin: 60px;
-    width: 200px;
+    margin:30px;
+    width:300px;
     grid-area:imagen1 ;
 }
 .img2{
-    margin: 60px;
-    width: 200px;
-    height: 200px; 
+    margin: 30px;
+    width: 300px;
+    height: 300px; 
     grid-area:imagen2 ;
 }
 .img3{
-    margin: 60px;
-    width: 200px;
-    height: 180px;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
     grid-area:imagen3 ;
 }
 .img4{
-    margin: 60px;
-    width: 240px;
+    margin: 30px;
+    width: 300px;
     grid-area:imagen4;
 }
 footer {
