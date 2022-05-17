@@ -59,7 +59,7 @@ main {
     height: 1500px;
     text-decoration: none;
     background-image: radial-gradient(#F5B041, #FAD7A0);
-    height: 700px;
+    height: 500px;
     color: black;
     grid-area: main;
 }
@@ -80,6 +80,21 @@ main {
     box-shadow: 18px 5px 12px;
     text-align: center;
     grid-area: hijoFlex;
+}
+.img5{
+    margin: 30px;
+    width: 260px;
+    grid-area:imagen4;
+}
+.img6{
+    margin: 30px;
+    width: 260px;
+    grid-area:imagen4;
+}
+.img7{
+    margin: 30px;
+    width: 260px;
+    grid-area:imagen4;
 }
     
 .hijoFlex p {
@@ -115,7 +130,7 @@ main {
 section {
     grid-area: section;
     background-image: radial-gradient(#F5B041, #FAD7A0);
-    height: 1700px;
+    height: 1500px;
     }
   
    
@@ -141,8 +156,8 @@ section {
     gap: 20px;
 }
 .img1{
-    margin:30px;
-    width:300px;
+    margin: 30px;
+    width: 300px;
     grid-area:imagen1 ;
 }
 .img2{
