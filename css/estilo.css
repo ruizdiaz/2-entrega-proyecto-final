@@ -50,7 +50,12 @@ header nav ul li a {
     grid-area: header nav ul li a;
 } */
 
-
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
 .logo {
     width: 200px;
     height: 200px;
@@ -83,28 +88,29 @@ main {
     grid-area: hijoFlex;
 }
 .img5{
-    margin: 30px;
+    margin: 0;
+    top: 0;
     width: 260px;
     grid-area:imagen4;
 }
 .img6{
-    margin: 30px;
+    margin: 0;
     width: 260px;
     grid-area:imagen4;
 }
 .img7{
-    margin: 30px;
+    margin: 0;
     width: 260px;
     grid-area:imagen4;
 }
     
 .hijoFlex p {
     color: black;
-    font-size: 2rem;
+     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
     margin-top: 10px;
-    grid-area: hijoFlexP;
+    grid-area: hijoFlexP; 
 }
 .caja1 {
     background-color: #FAD7A0;
