@@ -43,6 +43,10 @@ color: blue;
     width: 200px;
     height: 200px;
 }
+.logos{
+    width: 30px;
+    height: 30px;
+}
 main {
     background-color: #cdecec;
     height: 1800px;
