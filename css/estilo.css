@@ -25,9 +25,7 @@ body {
     padding: auto;
     top: 0;
 }
-/* .carousel {
-    height:auto ;
-} */
+
 
 .nav-link {
     color: black;
@@ -120,13 +118,17 @@ main {
      border: 3px black solid;
      border-radius: 4px;
     }
-    .hover{
+    .hover {
         color: darkslategrey;
         font-size: 40px;
     }
     .hover:hover{
         color:blue;
+       
     }
+  .listaPrecio{
+      background-color: #cdecec;
+  }
 section {
     grid-area: section;
     background-image: radial-gradient(#F5B041, #FAD7A0);
