@@ -20,7 +20,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color:#D6DBDF;
     text-align: center;
-    background-image: radial-gradient(#F5B041, #FAD7A0);
+    background-image: radial-gradient(#f3cfbf, #f09470);
     margin: auto;
     padding: auto;
     top: 0;
@@ -51,15 +51,18 @@ main {
     background-color: #cdecec;
     
     text-decoration: none;
-    background-image: radial-gradient(#F5B041, #FAD7A0);
+    background-image: radial-gradient(#fad9a4, #f89996);
     color: black;
     padding: auto;
     top: 0;
     grid-area: main;
 }
+.card {
+    background-color:hsl(5, 61%, 80%);
+}
 .padreFlex {
     display: flex;
-    margin-top: 100px;
+    
     background-color: antiquewhite;
     justify-content:space-around;
     flex-direction: column;
@@ -130,8 +133,15 @@ main {
        
     }
   .listaPrecio{
-      background-color: #cdecec;
+      background-color:hsl(5, 70%, 90%);
+      border-radius: 10px;
+      
   }
+  .card-img-top {
+      
+      height: 350px;
+  }
+  
 section {
     grid-area: section;
     background-image: radial-gradient(#F5B041, #FAD7A0);
