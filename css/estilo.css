@@ -36,14 +36,17 @@ body {
 .nav-link:hover{
 color: blue;
 }
-.logo {
+/* .logo {
     width: 200px;
     height: 200px;
-}
-.logos{
+} */
+ .logos{
     width: 30px;
     height: 30px;
-}
+} 
+.tamLogo {
+    width: 150px;
+    }
 main {
     background-color: #cdecec;
     
