@@ -59,6 +59,26 @@ main {
 }
 .card {
     background-color:hsl(5, 61%, 80%);
+    
+   
+}
+.card-text {
+    text-transform: uppercase;
+    font-size: 2 rem;
+}
+    
+.card-img-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 350px;
+}
+.card-group {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.card-body {
+    margin-top: 20px;
+    padding-top: 20px
 }
 .padreFlex {
     display: flex;
@@ -134,13 +154,8 @@ main {
     }
   .listaPrecio{
       background-color:hsl(5, 70%, 90%);
-      border-radius: 10px;
-      
-  }
-  .card-img-top {
-      
-      height: 350px;
-  }
+      }
+ 
   
 section {
     grid-area: section;
